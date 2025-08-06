@@ -85,7 +85,7 @@
 @keyframes words {
     0%,
     50%{
-        content:'Frontend Developer';
+        content:'Web Developer';
     }51%,
     100%{
         content:'Web Designer';
@@ -230,5 +230,6 @@
 .projects-container{
     grid-template-columns: repeat(1,1fr);
 }
+
 
 }
