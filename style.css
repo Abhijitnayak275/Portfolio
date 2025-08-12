@@ -34,11 +34,11 @@ body{
 }
 .logo{
     font-size: 3rem;
-    color: black;
     font-weight: 800;
     cursor:default;
     transition: 0.3s ease;
 }
+
 .logo:hover{
     transform: scale(1.1);
 
@@ -48,7 +48,7 @@ body{
     font-size: 1.8rem;
     color: black;
     margin-left: 4rem;
-    font-weight: 500;
+    font-weight: bold;
     transition: 0.3s ease;
     border-bottom: 3px solid transparent;
     position: relative;
@@ -62,7 +62,7 @@ body{
     
 }
  .navbar a:hover{
-    color: gray;
+    color: #78c446;
 }
 .navbar a::before{
     content: "";
@@ -71,7 +71,7 @@ body{
     left: 0;
     width: 0%;
     height: 2px;
-    background-color:gray;
+    background-color:#78c446;
     transition: all .3s;
  }
  .navbar a:hover::before{
@@ -80,7 +80,7 @@ body{
 
  #menu-icon{
     font-size: 3.6rem;
-    color:black;
+    color:#78c446;
     display: none;
 }
 section{
@@ -126,7 +126,7 @@ span{
     animation: slideRight 1s ease forwards;
 }
 .home-img{
-    border-radius: 50%;
+    border-radius: 100%;
      
 }
 .home-img img{
@@ -175,7 +175,7 @@ span{
     display: inline-block;
     padding: 1rem 2.8rem;
     margin: 0 -3rem;
-    background: black;
+    background:#78c446;
     border-radius: 4rem;
     font-size: 1.5rem;
     color: white;
@@ -189,7 +189,7 @@ span{
 }
 .btn:hover{
     transform: scale(1.05);
-    background:white;
+    background:#a6db82;
     color:black;
     border: 2px solid black;
 }
@@ -234,7 +234,7 @@ span{
     border-radius: 50%;
     animation: appear linear;
     animation-timeline: view();
-    animation-range: 0 cover 40%;
+    animation-range: 0 cover 25%;
 }
 .about-img img{
     position: relative;
@@ -250,7 +250,7 @@ span{
 .about .about-content{
     animation: appear2 linear;
     animation-timeline: view();
-    animation-range: 0 cover 40%;
+    animation-range: 0 cover 25%;
 }
 /* end new */
 
