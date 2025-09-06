@@ -149,10 +149,10 @@ span{
     width: 5rem;
     height: 5rem;
     background: transparent;
-    border: 0.3rem solid black;
+    border: 0.3rem solid #78c446;
     font-size: 2rem;
     border-radius: 50%;
-    color: black;
+    color: #78c446;
     background-color: white;
     margin: 3rem 1.5rem 3rem 0;
     transition: 0.3s ease;
@@ -165,7 +165,7 @@ span{
 .social-icons a:hover{
     color: white;
     transform: scale(1.3)translateY(-5px);
-    background-color:black;
+    background-color:#78c446;
 
 }
 /* .btn{
